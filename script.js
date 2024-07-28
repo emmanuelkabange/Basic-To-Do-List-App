@@ -21,10 +21,13 @@ function addTask() {
 
     newTask.textContent = taskText;
 
+    taskText.id = "taskText"
+
     // adding the ability to be able to remove tasks
     //creating a remove task button
     const removeBtn = document.createElement("button");
-    removeBtn.textContent = "Remove Task";
+    removeBtn.id = "removeBtn"
+    removeBtn.textContent = "Remove";
 
     //adding an event listener to the remove button
 
